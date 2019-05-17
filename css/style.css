@@ -1,17 +1,118 @@
+/* ##### Initial ##### */
+/** Black */
+@font-face {
+    font-family: "SF Display Black";
+    font-weight: 900;
+    src: url("https://sf.abarba.me/SF-UI-Display-Black.otf");
+}
+
+/** Medium */
+@font-face {
+    font-family: "SF Display Medium";
+    font-weight: 500;
+    src: url("https://sf.abarba.me/SF-UI-Display-Medium.otf");
+}
+/** Thin */
+@font-face {
+    font-family: "SF Display Thin";
+    font-weight: 300;
+    src: url("https://sf.abarba.me/SF-UI-Display-Thin.otf");
+  }
 :root {
     --thisRed: #F44647;
     --thisBlack: #000;
     --thisGrey: #6F7072;
     --thisOther: #9D9D9D;
 }
+figure{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    margin: 0px 186px;
+}
+
+h1 {
+    font-family: "SF Display Black", Arial, Helvetica, sans-serif;
+    font-size: 98px;
+    letter-spacing: 0.43px;	
+    line-height: 94px;
+}
+h2, h3, h4{
+    font-family: "SF Display", Arial, Helvetica, sans-serif;
+}
+.sub-title, .header-sub-title{
+    font-family: "SF Display Thin";
+}
+p {
+    font-family: "SF Display Medium", Arial, Helvetica, sans-serif;
+    color: var(--thisGrey);
+}
+
+/* ##### Header ##### */
 header{
     background-image: url(../img/desktop_hero_background.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 20px 0px;
     width: auto;
-    height: 100vh;
+    height: 110vh;
     margin-top: 0;
+    color:white;
+}
+.header-sub-title{
+    font-size: 17px;
+    margin-top: 160px;
+}
+.logo{
+    background-image: url(../img/logo_white.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 165px;
+    height: 35px;
+    top: 10px;
+    left:-140px;
+    position: relative;
+}
+.nav{
+    font-family: "SF Display Medium", Arial, Helvetica, sans-serif;
+    position: relative;
+    float: right;
+    right: -140px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none; 
+}
+li{
+    margin-right: 20px;
+}
+.header-link{
+    font-family: "SF Display Medium";
+    font-size: 24px;	
+    font-weight: bold;	
+    letter-spacing: 0.61px;	
+    line-height: 29px;
+    text-decoration: none;
+    color:white;
+}
+.header-line{
+    margin-top: 16px;
+    width: 234px;
+    height: 4px;
+    background-color: var(--thisRed);
+}
+/* ##### Main ##### */
+.map{
+    background-image: url(../img/desktop_section1_background.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 65%;
+    width: 100vw;
+    height: 120vh; 
 }
 .mount{
     background-image: url(../img/desktop_parallax_background.jpg);
@@ -19,6 +120,18 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    height: 33vh;
+    height: 50vh;
 }
+.article{
+    width: 100vw;
+    height: 120vh; 
+}
+.img-article{
+    width: 428px;
+    height: 642px;
+}
+
+
+
+/* ##### Footer ##### */
 
