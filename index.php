@@ -6,10 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/sanfrancisco-font.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <script type="text/javascript" src="js/app.js"></script>
     <title>Arbizon</title>
 </head>
 <body>
+    <header>
+        <div class="logo"></div>
+        <nav>
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="map">
+
+        </section>
+        <figure class="mount"></figure>
+    </main>
+
+    <footer>
     
+    </footer>
+
 </body>
 </html>

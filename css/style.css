@@ -1,0 +1,24 @@
+:root {
+    --thisRed: #F44647;
+    --thisBlack: #000;
+    --thisGrey: #6F7072;
+    --thisOther: #9D9D9D;
+}
+header{
+    background-image: url(../img/desktop_hero_background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+    margin-top: 0;
+}
+.mount{
+    background-image: url(../img/desktop_parallax_background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 33vh;
+}
+
