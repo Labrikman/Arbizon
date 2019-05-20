@@ -1,0 +1,53 @@
+###### TEST L'ARBIZON ######
+
+Durée de la réalisation 6h :
+
+- 1h de prépa vendredi
+- 5h de taf 
+
+Travail réalisé :
+
+- Réalisation de la page Home avec le responsive.
+- Communication avec la base de données des articles.
+
+Moyen utilisé :
+
+- HTML
+- CSS
+- JS
+- PHP
+- MySQL 
+
+Fonctionnalité :
+
+Nous avons une page vitrine qui est la page d'accueil du site en dur sur l'ensemble du site.
+La section de bas de page articles, contient les articles appelés en Base de Données.
+Au clic sur une randonnée, ça amène sur la page Article qui affiche le contenu de la randonnée.
+
+J'ai fait au plus vite donc la politique de naming en Base de données est rudimentaire.
+Pour chaque Randonnée nous avons :
+ - un id
+ - un titre
+ - une difficulté (donc une Catégorie): Easy, Normal, Hard
+ - une image
+ - un texte aléatoire (Lorem Ipsum)
+
+Points bloquants :
+
+- Comme le site est from scratch j'ai passé pas mal de temps pour le responsive 
+ pas tout a fait fini.
+- Ce ne sont pas les font pro mais ça fera l'affaire.
+- Le menu burger que j'ai récupéré ne me plaît pas trop(du coup je l'ai pas mis).
+- Manque de temps pour le faire, weekend un peu chargé avec le rugby.
+
+Points fort :
+
+- Le travail m'a bien plu.
+- J'ai bien aimé travailler sur Sketch avec les maquettes bien pratiques.
+- Ca m'a refait bosser sur un workflow simple et efficace.
+- Comme je suis originaire de Saint Lary Soulan, le sujet était très bien choisi.
+
+Voila !
+
+
+
