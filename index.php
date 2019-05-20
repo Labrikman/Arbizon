@@ -79,11 +79,35 @@
                 <p class="sub-title"><strong>The most beautiful view of the Pyrénées</strong></p>
                 <h3 class="main-title">Discovers all hikes of Arbizon</h3>
             </div>
-            <div class="all-article">
+            <section class="all-article">
                 <?php 
-                echo "coucou";
+
+                // Connexion DB
+                require('includes/inc_connOK.php');
+
+                // Préparation de la requête
+                $requete = 'SELECT id, title, images, levels, texte FROM articles';
+
+                // Exécution de la requête
+                $obj_resultats = $connDB -> query($requete);
+
+                // Stockage des résultats
+                $tab_resultats = $obj_resultats -> fetchAll(PDO::FETCH_ASSOC);
+
+                // Deconnexion DB
+                require('includes/inc_connKO.php');
+
+                // Exploitation des résultats
+                foreach($tab_resultats as $tab_ligne){
+                    echo '<a href="article.php?id='.$tab_ligne['id'].'">';
+                    echo '<article class="mini-article" style="background-image:url('.$tab_ligne['images'].')"';
+                    echo '<div class="sub-title-art">'.$tab_ligne['levels'].'</div>';
+                    echo '<h3 class="title-art">'.$tab_ligne['title'].'</h3>';
+                    echo '</article>';
+                    echo '</a>';
+                }
                 ?> 
-            </div>
+            </section>
         </section>
     </main>
 

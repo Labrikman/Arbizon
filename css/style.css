@@ -44,6 +44,9 @@ main{
     margin-top: -15px;
     z-index: 1;
 }
+a{
+    text-decoration: none;
+}
 h1 {
     font-family: "SF Display bold", Arial, Helvetica, sans-serif;
     font-size: 98px;
@@ -161,8 +164,9 @@ li{
     margin: 0px 0px 82px;
 }
 .article{
-    width: 100vw;
-    height: 85vh; 
+    width: auto;
+    height: auto; 
+    padding-bottom: 20px;
 }
 .article-wrap{
     display: flex;
@@ -177,8 +181,48 @@ li{
     height: 640px;
     margin-right: 32px;
 }
-
-
+/* ##### mini-article ##### */
+.all-article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+}
+.all-article a{
+    text-decoration: none;
+}
+.mini-article{
+    display: block;
+    width: 260px;
+    height: 400px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 6px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-size: cover;
+    padding: 20px;
+    color: white;
+    
+}
+.sub-title-art{
+    font-family: "SF Display Thin";
+    font-weight: 300;
+    font-size: 15px;
+}
+.title-art{
+    font-size: 25px;
+    font-family: "SF Display bold";
+    font-weight: 700;
+}
+.result{
+    width: 50%;
+    height: 70%;
+    margin: 100px;
+}
+.img-result{
+   width: 200px;
+   height: auto; 
+}
 
 /* ##### Footer ##### */
 footer{
@@ -186,6 +230,7 @@ footer{
     justify-content: flex-end;    
     height: 350px;
     flex-wrap: wrap;
+    padding-top: 50px!important;
 }
 .logo-black{
     background-image: url(../img/logo_black.svg);
